@@ -1,0 +1,173 @@
+body{
+    background-color: hsl(210, 46%, 95%);
+    display: flex;
+    
+    justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 19rem;
+    width: 45.2rem;
+    background-color: white;
+    border-radius: 0.5rem;
+}
+.drawer{
+    height:19rem;
+    width: 16rem;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+.carddisc{
+display: flex;
+flex-direction: column;
+padding: 1.25rem 3rem;
+}
+h3{
+  
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    color: rgb(72,85,106);
+}
+p{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    color: rgb(72,85,106);
+    font-size:smaller;
+}
+.profile{
+    margin-top: 3rem;
+display: flex;
+flex-direction: row;
+
+}
+.av{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Manrope', sans-serif;
+    margin-left: 1rem;
+    font-size: smaller;
+    font-weight: 700;
+    color: rgb(72,85,106);
+     margin-bottom: 1rem;
+}
+.share{
+    margin-left: 13rem;
+    cursor: pointer;
+    border-radius: 50%;
+    height: 2rem;
+    background-color:  hsl(210, 46%, 95%);
+   
+}
+ .send{
+     background-color: hsl(217, 19%, 35%) ;
+     width: 5rem;
+     height: 12.5rem;
+     border-top-right-radius: 15%;
+     border-bottom-right-radius: 15%;
+     display: flex;
+     flex-direction: column;
+     }
+ .logo{
+     margin-top: 1rem;
+     margin-right: 1rem;
+     margin-left:1rem ;
+     cursor: pointer;
+ }
+ .hide{
+    display: none;
+}
+@media screen and (min-width: 140px) and (max-width: 1080px) {
+    body{
+        background-color: hsl(210, 46%, 95%);
+        display: flex;
+        justify-content: center;
+          align-items: center;
+          min-height: 100vh;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        height: 40rem;
+        width: 21.5rem;
+        background-color: white;
+        border-radius: 0.5rem;
+    }
+    .drawer{
+        height:19rem;
+        width: 21.5rem;
+        border-top-left-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
+    }
+    .carddisc{
+    display: flex;
+    flex-direction: column;
+    padding: 1.25rem 3rem;
+    }
+    h3{
+      
+        font-family: 'Manrope', sans-serif;
+        font-weight: 700;
+        color: rgb(72,85,106);
+    }
+    p{
+        font-family: 'Manrope', sans-serif;
+        font-weight: 400;
+        color: rgb(72,85,106);
+        font-size:smaller;
+    }
+    .profile{
+        margin-top: 0.4rem;
+    display: flex;
+    flex-direction: row;
+    
+    }
+    .av{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 50%;
+    }
+    .name{
+        display: flex;
+        flex-direction: column;
+        font-family: 'Manrope', sans-serif;
+        margin-left: 1rem;
+        font-size: smaller;
+        font-weight: 700;
+        color: rgb(72,85,106);
+         margin-bottom: 1rem;
+    }
+    .share{
+        margin-left: 3rem;
+        cursor: pointer;
+        border-radius: 50%;
+        height: 2rem;
+        background-color:  hsl(210, 46%, 95%);
+    }
+    .send{ 
+        display: flex;
+        flex-direction: column;
+        background-color: hsl(217, 19%, 35%) ;
+        width: 50px;
+        height: 110px;
+        border-top-right-radius: 15%;
+        border-bottom-right-radius: 15%;
+       
+        }
+    .logo{
+        margin-top: 1rem;
+        margin-right: 1rem;
+        margin-left:1rem ;
+        cursor: pointer;
+    }
+    .hide{
+       display: none;
+   }
+}
